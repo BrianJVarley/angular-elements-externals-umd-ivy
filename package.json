@@ -10,7 +10,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "npx-build-plus:copy-assets": "node copy-wc-polyfill.js && node copy-bundles.js",
     "build:externals": "ng build --extra-webpack-config webpack.externals.js --prod --single-bundle --keep-polyfills --keep-styles",
     "build:webcomp:externals": "ng build --extra-webpack-config webpack.externals.js --prod --project webcomp --single-bundle --keep-polyfills --keep-styles"
   },
